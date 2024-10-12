@@ -1,17 +1,17 @@
-# Bliss Radio
+# Melodix
 
 ## About 
 
-`@prozilla-os/bliss-radio` is a Radio app based on https://blissradio.eu/ for ProzillaOS.
+`@taynotfound/Melodix` is a Music app for ProzillaOS.
 
 ## Installation
 
 `@prozilla-os/core` is required to run this application.
 
 ```sh
-$ npm install @prozilla-os/core @prozilla-os/bliss-radio
-$ yarn add @prozilla-os/core @prozilla-os/bliss-radio
-$ pnpm add @prozilla-os/core @prozilla-os/bliss-radio
+$ npm install @prozilla-os/core @taynotfound/Melodix
+$ yarn add @prozilla-os/core @taynotfound/Melodix
+$ pnpm add @prozilla-os/core @taynotfound/Melodix
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ $ pnpm add @prozilla-os/core @prozilla-os/bliss-radio
 
 ```tsx
 import { Desktop, ModalsView, ProzillaOS, Taskbar, WindowsView, AppsConfig } from "@prozilla-os/core";
-import { blissRadio } from "@prozilla-os/bliss-radio";
+import { Melodix } from "@taynotfound/Melodix";
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
       tagLine="Powered by ProzillaOS"
       config={{
         apps: new AppsConfig({
-          apps: [ blissRadio ]
+          apps: [ Melodix ]
         })
       }}
     >
@@ -49,7 +49,7 @@ function App() {
 - [Discord][discord]
 - [Ko-fi][ko-fi]
 
-[github]: https://github.com/prozilla-os/Bliss-radio-app
-[npm]: https://www.npmjs.com/package/@prozilla-os/bliss-radio
+[github]: https://github.com/prozilla-os/Melodix-app
+[npm]: https://www.npmjs.com/package/@taynotfound/Melodix
 [discord]: https://discord.gg/JwbyQP4tdz
 [ko-fi]: https://ko-fi.com/prozilla

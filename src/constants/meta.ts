@@ -1,3 +1,3 @@
-export const SITE_NAME = "Bliss Radio";
+export const SITE_NAME = "Melodix";
 export const LOCALE = "en";
-export const CANONICAL = "https://blissradio.eu/";
+export const CANONICAL = "https://Melodix.eu/";

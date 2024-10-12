@@ -2,8 +2,8 @@ import { TrackInfo } from "src/components/player/Player";
 import { NAME, TAGLINE } from "./branding";
 import { CANONICAL } from "./meta";
 
-export const AUDIO_STREAM_URL = "https://radio.codespiral.top/blissradio/stream";
-export const AUDIO_DATA_URL = "https://api.blissradio.eu/v1/nowplaying";
+export const AUDIO_STREAM_URL = "https://radio.codespiral.top/Melodix/stream";
+export const AUDIO_DATA_URL = "https://api.Melodix.eu/v1/nowplaying";
 export const DEFAULT_VOLUME = 50;
 export const FETCH_TRACK_INFO_INTERVAL = 5000;
 export const DEFAULT_TRACK_INFO: TrackInfo = {

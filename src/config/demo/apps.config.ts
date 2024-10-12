@@ -1,9 +1,9 @@
 import { AppsConfig } from "@prozilla-os/core";
-import { blissRadio } from "../../main";
+import { melodix } from "../../main";
 
 export const appsConfig = new AppsConfig({
 	apps: [
-		blissRadio.setPinnedByDefault(true)
+		melodix.setPinnedByDefault(true)
 			.setLaunchAtStartup(true)
 	]
 });

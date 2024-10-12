@@ -1,8 +1,8 @@
 import { App } from "@prozilla-os/core";
-import { BlissRadio } from "./components/BlissRadio";
+import { Melodix } from "./components/Melodix";
 
-const blissRadio = new App("Bliss Radio", "bliss-radio", BlissRadio)
-	.setIconUrl("https://blissradio.eu/_next/image?url=https%3A%2F%2Fblissradio.eu%2Fbliss-cover.png&w=256&q=75")
+const melodix = new App("Melodix", "Melodix", Melodix)
+	.setIconUrl("https://us-east-1.tixte.net/uploads/tay.needs.rest/MelodiXLogo.png")
 	.setPinnedByDefault(false);
 
-export { blissRadio };
+export { melodix };
