@@ -46,10 +46,14 @@ function App() {
 
 - [GitHub][github]
 - [npm][npm]
-- [Discord][discord]
+- [Taylabs Discord][discord]
+- [ProzillaOS Discord][prodis]
 - [Ko-fi][ko-fi]
+- [Website][website]
 
-[github]: https://github.com/prozilla-os/Melodix-app
+[github]: https://github.com/taynotfound/melodix
 [npm]: https://www.npmjs.com/package/@taynotfound/Melodix
-[discord]: https://discord.gg/JwbyQP4tdz
-[ko-fi]: https://ko-fi.com/prozilla
+[discord]: https://discord.gg/C2bAXnYXzm
+[ko-fi]: https://ko-fi.com/notfoundsh
+[website]: https://www.taymaerz.de/
+[prodis]:https://discord.gg/U9KM5q6b
