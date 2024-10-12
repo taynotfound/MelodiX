@@ -7,8 +7,8 @@
 }
 
 .AppContainer {
-	background-color: #1E262E; /* Dark background for the app */
-	color: #E5F2FF; /* Light text color for contrast */
+	background-color: #25283D; /* Dark background for the app */
+	color: #AD7A99; /* Light text color for contrast */
 	min-height: 100vh; /* Ensure the container takes full height */
 	display: flex;
 	flex-direction: column;
@@ -17,8 +17,8 @@
 }
 
 .Header {
-	background-color: #4D9CFF; /* Header color */
-	color: #E5F2FF; /* White text for better contrast */
+	background-color: #6DC0D5; /* Header color */
+	color: #AD7A99; /* White text for better contrast */
 	padding: 15px; /* Increased padding for better touch targets */
 	text-align: center;
 	font-size: 1.8rem; /* Larger font size for the header */
@@ -26,30 +26,29 @@
 }
 
 .button {
-	background-color: #FF974D; /* Button color */
-	color: #E5F2FF; /* White text for better contrast */
+	background-color: #78C091; /* Button color */
+	color: #E5F2FF; /* Text color */
 	border: none;
 	border-radius: 5px;
-	padding: 12px 20px; /* Increased padding for larger buttons */
+	padding: 10px;
 	cursor: pointer;
-	transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
-	font-size: 1rem; /* Increased font size */
+	transition: background-color 0.3s;
 	margin: 5px; /* Space between buttons */
 }
 
-.Button:hover {
+.button:hover {
 	background-color: #B26A36; /* Darker shade on hover */
 	transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 .PlayerContainer {
-	background-color: #1E262E; /* Darker background for the Player */
-	color: #E5F2FF; /* Light text color */
+	background-color: #25283D; /* Darker background for the Player */
+	color: #AD7A99; /* Light text color */
 	padding: 20px;
 	border-radius: 10px; /* Rounded corners */
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.9); /* Stronger shadow for depth */
 	margin-top: 20px; /* Space above the Player */
-	border: 2px solid #4D9CFF; /* Border to differentiate the Player */
+	border: 2px solid #6DC0D5; /* Border to differentiate the Player */
 }
 
 .PlayerControls {
