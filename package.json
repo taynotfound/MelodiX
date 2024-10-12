@@ -1,12 +1,8 @@
 {
-	"name": "@taynotfound/melodix",
+	"name": "@taygotfound/melodix",
 	"private": false,
 	"version": "1.0.0",
-	"author": {
-		"name": "Tay",
-		"email": "marztayron@gmail.com",
-		"url": "https://taymaerz.de"
-	},
+	"author": "Tay <marztayron@gmail.com> (https://taymaerz.de)",
 	"type": "module",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
@@ -57,5 +53,10 @@
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org/",
 		"access": "public"
-	}
+	},
+	"description": "Music App for ProzillaOS",
+	"bugs": {
+		"url": "https://github.com/taynotfound/Melodix/issues"
+	},
+	"homepage": "https://github.com/taynotfound/Melodix#readme"
 }
