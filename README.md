@@ -4,6 +4,10 @@
 
 `@taynotfound/Melodix` is a Music app for ProzillaOS.
 
+## Changelog
+
+The Changelog can be found [here](https://github.com/taynotfound/MelodiX/blob/main/CHANGELOG.md)
+
 ## Installation
 
 `@prozilla-os/core` is required to run this application.
