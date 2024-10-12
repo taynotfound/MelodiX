@@ -1,9 +1,9 @@
 import { AppsConfig } from "@prozilla-os/core";
-import { melodix } from "../../main";
+import { Melodix } from "../../main";
 
 export const appsConfig = new AppsConfig({
 	apps: [
-		melodix.setPinnedByDefault(true)
+		Melodix.setPinnedByDefault(true)
 			.setLaunchAtStartup(true)
 	]
 });

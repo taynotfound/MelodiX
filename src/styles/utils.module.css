@@ -6,33 +6,62 @@
 	margin: 0.5rem 0;
 }
 
-.Button {
-	opacity: 100%;
-	position: relative;
-	display: inline-block;
-	padding: 0.75rem 1.5rem;
-	margin-top: 2rem;
-	color: hsl(var(--background-hsl-a));
-	background-color: hsl(var(--primary-accent-hsl-a));
-	border: solid 0.25rem hsl(var(--primary-accent-hsl-b));
-	border-radius: var(--border-radius-a);
-	box-shadow: 0.25rem 0.25rem 2rem 0 hsl(var(--background-hsl-a));
-	font-size: 1rem !important;
-	transform: none;
-	transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
-	z-index: 1;
+.AppContainer {
+	background-color: #1E262E; /* Dark background for the app */
+	color: #E5F2FF; /* Light text color for contrast */
+	min-height: 100vh; /* Ensure the container takes full height */
+	display: flex;
+	flex-direction: column;
+	padding: 20px; /* Add some padding */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+}
+
+.Header {
+	background-color: #4D9CFF; /* Header color */
+	color: #E5F2FF; /* White text for better contrast */
+	padding: 15px; /* Increased padding for better touch targets */
+	text-align: center;
+	font-size: 1.8rem; /* Larger font size for the header */
+	border-radius: 8px; /* Rounded corners */
+}
+
+.button {
+	background-color: #FF974D; /* Button color */
+	color: #E5F2FF; /* White text for better contrast */
+	border: none;
+	border-radius: 5px;
+	padding: 12px 20px; /* Increased padding for larger buttons */
 	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
+	font-size: 1rem; /* Increased font size */
+	margin: 5px; /* Space between buttons */
 }
 
 .Button:hover {
-	opacity: 75%;
-	color: hsl(var(--background-hsl-a));
-	transform: scale(95%);
+	background-color: #B26A36; /* Darker shade on hover */
+	transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
-.Header, .Button {
-	font-family: var(--header-font-family);
-	font-size: 4.75rem;
-	font-weight: 700;
-	line-height: 1.3;
+.PlayerContainer {
+	background-color: #1E262E; /* Darker background for the Player */
+	color: #E5F2FF; /* Light text color */
+	padding: 20px;
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.9); /* Stronger shadow for depth */
+	margin-top: 20px; /* Space above the Player */
+	border: 2px solid #4D9CFF; /* Border to differentiate the Player */
+}
+
+.PlayerControls {
+	display: flex;
+	justify-content: space-between; /* Space out controls */
+	align-items: center; /* Center vertically */
+	margin-top: 10px; /* Space above controls */
+}
+
+.VolumeControl {
+	width: 100%; /* Full width for the volume slider */
+	margin-top: 10px; /* Space above the volume control */
+	background-color: #1E262E; /* Background for the slider */
+	border-radius: 5px; /* Rounded corners */
 }

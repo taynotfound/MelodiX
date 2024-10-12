@@ -1,8 +1,8 @@
 import { App } from "@prozilla-os/core";
-import { Melodix } from "./components/Melodix";
+import { melodix } from "./components/Melodix";
 
-const melodix = new App("Melodix", "Melodix", Melodix)
+const Melodix = new App("Melodix", "Melodix", melodix)
 	.setIconUrl("https://us-east-1.tixte.net/uploads/tay.needs.rest/MelodiXLogo.png")
 	.setPinnedByDefault(false);
 
-export { melodix };
+export { Melodix };
