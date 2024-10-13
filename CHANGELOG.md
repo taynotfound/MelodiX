@@ -1,5 +1,11 @@
 # @taygotfound/melodix
 
+## 2.0.1
+
+### Patch Changes
+
+- Fix Imports etc
+
 ## 2.0.0
 
 ### Major Changes
