@@ -1,5 +1,11 @@
 # @taygotfound/melodix
 
+## 2.0.2
+
+### Patch Changes
+
+- Fix Export
+
 ## 2.0.1
 
 ### Patch Changes
