@@ -1,5 +1,11 @@
 # @taygotfound/melodix
 
+## 2.0.4
+
+### Patch Changes
+
+- Update Search URL to https
+
 ## 2.0.3
 
 ### Patch Changes
