@@ -28,7 +28,7 @@ const Search: React.FC<SearchProps> = ({
   const searchSongs = async () => {
     try {
       const [title, artist] = searchTerm.split("-").map(s => s.trim());
-      const response = await axios.get(`http://toybox.g3v.co.uk/search?title=${title}&artist=${artist}`);
+      const response = await axios.get(`https://toybox.g3v.co.uk/search?title=${title}&artist=${artist}`);
       const results = response.data.data.result ? [response.data.data.result] : [];
       setSearchResults(results);
     } catch (error) {
