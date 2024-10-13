@@ -4,7 +4,7 @@
 	"version": "2.0.2",
 	"author": "Tay <marztayron@gmail.com> (https://taymaerz.de)",
 	"type": "module",
-	"main": "dist/main.ts",
+	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
 	"keywords": [
 		"music",
