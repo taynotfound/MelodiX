@@ -1,7 +1,7 @@
 {
 	"name": "@taygotfound/melodix",
 	"private": false,
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"author": "Tay <marztayron@gmail.com> (https://taymaerz.de)",
 	"type": "module",
 	"main": "dist/main.js",

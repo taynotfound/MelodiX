@@ -1,5 +1,11 @@
 # @taygotfound/melodix
 
+## 2.0.3
+
+### Patch Changes
+
+- Build the shite
+
 ## 2.0.2
 
 ### Patch Changes
